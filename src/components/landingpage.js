@@ -4,7 +4,7 @@ import logo from './logo.jpg';
 
 function landingPage(){
     return(
-     <div style = {{width: '100%', margin:'auto', display: 'flex'}}>
+     <div style = {{height: '100%', width: '100%', margin:'auto', display: 'flex'}}>
       <Grid className = "landingGrid">
         <Cell col={12}>
             <img src = {logo} alt = "Logo" className = "logoPic"/>;
